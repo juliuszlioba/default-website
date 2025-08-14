@@ -1,20 +1,22 @@
 {
   "name": "default-website",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --host",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/check": "^0.9.4",
     "@fontsource-variable/inter": "^5.2.6",
     "@fontsource-variable/josefin-sans": "^5.2.6",
     "@tailwindcss/vite": "^4.1.11",
     "astro": "^5.12.4",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.9.2"
   },
   "devDependencies": {
     "prettier": "^3.6.2",

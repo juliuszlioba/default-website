@@ -6,4 +6,9 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  server: {
+    allowedHosts: true,
+    // port: 4321, // or whatever port you run Astro on
+    host: true, // important: listen on all interfaces
+  },
 });
